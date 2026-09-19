@@ -5,7 +5,7 @@ int main() {
 double x, y;
 
 //введення значення x
-printf("Введіть значення x: \n");
+printf("Enter value x: \n");
 scanf("%lf", &x);
 
 // обчислення значення y залежно від x
@@ -23,7 +23,7 @@ else {
     y = (x / 10) + 4;
 }
 //виведення значення y
-printf("Значення y: %lf\n", y);
+printf("value y: %lf\n", y);
 
     return 0;
 }
